@@ -7,5 +7,13 @@
 
     public class BlockHeader
     {
+        private long number;
+
+        public BlockHeader(long number)
+        {
+            this.number = number;
+        }
+
+        public long Number { get { return this.number; } }
     }
 }
