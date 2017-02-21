@@ -8,11 +8,22 @@
     public class BlockHeaderTests
     {
         [TestMethod]
-        public void createBlockHeaderWithNumber()
+        public void CreateBlockHeaderWithNumber()
         {
             BlockHeader header = new BlockHeader(42);
 
             Assert.AreEqual(42, header.Number);
+        }
+
+        [TestMethod]
+        public void CreateBlockHeaderWithNumberAndParentHash()
+        {
+            Hash parentHash = new Hash();
+
+            BlockHeader header = new BlockHeader(42, parentHash);
+
+            Assert.AreEqual(42, header.Number);
+            Assert.AreEqual(parentHash, header.ParentHash);
         }
     }
 }
