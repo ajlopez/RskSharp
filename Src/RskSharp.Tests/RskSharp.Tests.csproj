@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Core\BlockHeaderTests.cs" />
     <Compile Include="Core\Builders\BlockHeaderBuilderTests.cs" />
+    <Compile Include="Core\BlockTests.cs" />
     <Compile Include="Core\HashTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vm\DataWordTests.cs" />

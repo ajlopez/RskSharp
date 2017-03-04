@@ -7,5 +7,13 @@
 
     public class Block
     {
+        private BlockHeader header;
+
+        public Block(BlockHeader header)
+        {
+            this.header = header;
+        }
+
+        public BlockHeader Header { get { return this.header; } }
     }
 }
