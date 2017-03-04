@@ -14,6 +14,7 @@
             Block block = new Block(header);
 
             Assert.AreSame(header, block.Header);
+            Assert.AreEqual(42, block.Number);
         }
     }
 }

@@ -15,5 +15,7 @@
         }
 
         public BlockHeader Header { get { return this.header; } }
+
+        public long Number { get { return this.header.Number; } }
     }
 }
