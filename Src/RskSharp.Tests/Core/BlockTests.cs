@@ -16,5 +16,14 @@
             Assert.AreSame(header, block.Header);
             Assert.AreEqual(42, block.Number);
         }
+
+        [TestMethod]
+        public void NoParentHash()
+        {
+            BlockHeader header = new BlockHeader(42);
+            Block block = new Block(header);
+
+            Assert.IsNull(block.ParentHash);
+        }
     }
 }

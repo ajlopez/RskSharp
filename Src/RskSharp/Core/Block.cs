@@ -17,5 +17,8 @@
         public BlockHeader Header { get { return this.header; } }
 
         public long Number { get { return this.header.Number; } }
+
+        public Hash ParentHash { get { return this.header.ParentHash; } }
     }
 }
+
