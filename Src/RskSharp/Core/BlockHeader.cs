@@ -7,6 +7,7 @@
 
     public class BlockHeader
     {
+        private Hash hash;
         private long number;
         private Hash parentHash;
 
@@ -19,10 +20,13 @@
         {
             this.number = number;
             this.parentHash = parentHash;
+            this.hash = new Hash();
         }
 
         public long Number { get { return this.number; } }
 
         public Hash ParentHash { get { return this.parentHash; } }
+
+        public Hash Hash { get { return this.hash; } }
     }
 }

@@ -16,6 +16,14 @@
         }
 
         [TestMethod]
+        public void CreateBlockHeaderWithHash()
+        {
+            BlockHeader header = new BlockHeader(42);
+
+            Assert.IsNotNull(header.Hash);
+        }
+
+        [TestMethod]
         public void CreateBlockHeaderWithNumberAndParentHash()
         {
             Hash parentHash = new Hash();
