@@ -54,6 +54,7 @@
     <Compile Include="Core\HashTests.cs" />
     <Compile Include="Encoding\RlpTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stores\TrieTests.cs" />
     <Compile Include="Vm\DataWordTests.cs" />
     <Compile Include="Vm\MachineTests.cs" />
     <Compile Include="Vm\MemoryTests.cs" />
