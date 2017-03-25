@@ -31,7 +31,7 @@
 
         public Boolean HasParent(Block parent)
         {
-            return this.ParentHash != null && this.ParentHash.Equals(parent.Hash);
+            return this.ParentHash != null && this.Number == parent.Number + 1 && this.ParentHash.Equals(parent.Hash);
         }
     }
 }
