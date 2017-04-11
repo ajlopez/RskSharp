@@ -2,8 +2,8 @@
 {
     using System;
     using System.Numerics;
-    using RskSharp.Vm;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using RskSharp.Vm;
 
     [TestClass]
     public class DataWordTests

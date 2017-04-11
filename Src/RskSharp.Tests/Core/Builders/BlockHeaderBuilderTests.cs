@@ -2,8 +2,8 @@
 {
     using System;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using RskSharp.Core.Builders;
     using RskSharp.Core;
+    using RskSharp.Core.Builders;
 
     [TestClass]
     public class BlockHeaderBuilderTests

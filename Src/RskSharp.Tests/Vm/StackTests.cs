@@ -4,8 +4,8 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
-    using RskSharp.Vm;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using RskSharp.Vm;
 
     [TestClass]
     public class StackTests

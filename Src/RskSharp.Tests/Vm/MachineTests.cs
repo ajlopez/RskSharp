@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Numerics;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
     using RskSharp.Compilers;
     using RskSharp.Vm;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
     public class MachineTests

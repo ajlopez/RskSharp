@@ -1,8 +1,8 @@
 ﻿namespace RskSharp.Tests.Encoding
 {
     using System;
-    using RskSharp.Encoding;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using RskSharp.Encoding;
 
     [TestClass]
     public class RlpTests

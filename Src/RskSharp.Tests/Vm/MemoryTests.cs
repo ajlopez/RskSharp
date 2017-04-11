@@ -1,8 +1,8 @@
 ﻿namespace RskSharp.Tests.Vm
 {
     using System;
-    using RskSharp.Vm;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using RskSharp.Vm;
 
     [TestClass]
     public class MemoryTests

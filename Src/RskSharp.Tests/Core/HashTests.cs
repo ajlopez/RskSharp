@@ -2,8 +2,8 @@
 {
     using System;
     using System.Linq;
-    using RskSharp.Core;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using RskSharp.Core;
 
     [TestClass]
     public class HashTests

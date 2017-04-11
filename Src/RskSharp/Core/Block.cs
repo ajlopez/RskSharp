@@ -27,9 +27,9 @@
 
         public Hash ParentHash { get { return this.header.ParentHash; } }
 
-        public Boolean IsGenesis { get { return this.Number == 0; } }
+        public bool IsGenesis { get { return this.Number == 0; } }
 
-        public Boolean HasParent(Block parent)
+        public bool HasParent(Block parent)
         {
             return this.ParentHash != null && this.Number == parent.Number + 1 && this.ParentHash.Equals(parent.Hash);
         }

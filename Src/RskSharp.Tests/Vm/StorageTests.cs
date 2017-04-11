@@ -1,9 +1,9 @@
 ﻿namespace RskSharp.Tests.Vm
 {
     using System;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
     using RskSharp.Core;
     using RskSharp.Vm;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
     public class StorageTests
